@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+
+	for(int i=1;i<=t;i++)
+    {
+	int x,y;
+	cin>>x>>y;
+
+	if(x<y)
+	{
+	   int extra_choclate = (y-x);
+	   int price = extra_choclate * 2;
+	   int sell_choclate = price +x;
+	   cout<<sell_choclate<<endl;
+	}
+	else 
+	{
+	    cout<<y<<endl;
+	}
+
+    }
+	return 0;
+}
+0 comments on commit 6af6afb
