@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y;
+	// your code goes here
+        cout<<"enter the no. of test cases:";
+        cin>>t;
+while(t--){
+    cout<<"enter the no. of following:";
+    cin>>x;
+    cout<<"enter the no. of followers in account:";
+    cin>>y;
+    if(x>10*y){
+        cout<<"yes";
+    }
+    else{
+        cout<<"no";
+    }
+}
+
+	return 0;
+}
